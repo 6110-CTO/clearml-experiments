@@ -1,3 +1,4 @@
+### Jupyter ###
 *.bundle.*
 lib/
 node_modules/
@@ -200,3 +201,8 @@ ui-tests/.pnp.*
 
 # generated html
 notebook/templates/*.html
+
+### Jupyter END ###
+
+# Ignore .env file containing sensitive information
+.env
